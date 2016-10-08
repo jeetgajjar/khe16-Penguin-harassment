@@ -21,7 +21,8 @@ for (var i = 0; i < elements.length; i++) {
 			var start_sig = '<div class="_3hi clearfix"><div class="_38 direction_ltr"><span class="null"><p>';
 			var end_sig = '</p></span></div><div class="_1yr">'
 			var full_sig = '/' + start_sig + '*' + end_sig + '/gi';
-			var replacedText = text.replace(full_sig,'IT IS WORKING!');
+			var replace_text = start_sig + 'IT IS WORKING' + end_sig;
+			var replacedText = text.replace(full_sig,replace_text);
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
