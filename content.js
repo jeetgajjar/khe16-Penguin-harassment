@@ -16,8 +16,8 @@ if (replacedText !== html) {
 	document.getElementsByTagName('body')[0].textContent = replaceText;
 	alert('Replacing!');
 }
-	
-	
+
+
 	*/
 var elements = document.getElementsByTagName('body');
 //alert(elements.length + '\nReplace ' + full_sig + '\nWith ' + replace_text);
@@ -25,7 +25,7 @@ var elements = document.getElementsByTagName('body');
 for (var i = 0; i < elements.length; i++) {
     var text = elements[i].textContent;
 	//alert(element);
-	
+
 	var replacedText = text.replace(full_regex,replace_text);
 
 	if (replacedText !== text) {
@@ -33,7 +33,7 @@ for (var i = 0; i < elements.length; i++) {
 		elements[i].textContent = replacedText;
 		alert(replacedText);
 	}
-	
+
 	/**
     for (var j = 0; j < element.childNodes.length; j++) {
         var node = element.childNodes[j];
@@ -42,9 +42,9 @@ for (var i = 0; i < elements.length; i++) {
             var text = node.nodeValue;
 
             //var replacedText = text.replace(/Connect/gi, 'BUULLL89Y!!!');
-			
+
 			//from Tyler
-			
+
 			var replacedText = text.replace(full_regex,replace_text);
 
             if (replacedText !== text) {

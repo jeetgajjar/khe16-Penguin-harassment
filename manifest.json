@@ -16,10 +16,17 @@
         {
             "matches": [
 
-                "*://*/*"
+                "*://facebook.com/*"
             ],
             "js": [
-                "content.js"
+                "facebook.js"
+            ],
+            "matches": [
+
+                "*://reddit.com/*"
+            ],
+            "js": [
+                "reddit.js"
             ],
             "run_at": "document_end"
         }
