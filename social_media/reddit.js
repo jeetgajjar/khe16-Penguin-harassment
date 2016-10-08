@@ -1,6 +1,7 @@
+console.log("hey");
 var elements = document.getElementsByTagName('*'); //gets all tags
 
-//
+alert(elements.length);
 for (var i = 0; i < elements.length; i++) {
    var element = elements[i];
 
@@ -9,7 +10,7 @@ for (var i = 0; i < elements.length; i++) {
 
        if (node.nodeType === 3) {
            var text = node.nodeValue;
-           var replacedText = text.replace("hi" /gi, "I'm Alive");
+           var replacedText = text.replace(/hi/gi, "I'm Alive");
 
            if (replacedText !== text) {
                element.replaceChild(document.createTextNode(replacedText), node);
