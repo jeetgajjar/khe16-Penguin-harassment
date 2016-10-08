@@ -25,3 +25,8 @@
 	</div>
 <div class="_1yr">
 <span class="_2oy"><a data-reactroot="" class="_2fs6 _2fs2" href="#"><i class="_2fs1"></i><span></span></a></span><span></span></div></div>
+
+<!--news site-->
+<div class="esc-lead-snippet-wrapper">
+	Hillary Clinton's paid closed-door speeches to Wall Street banks apparently included her dreams of “open trade and open borders” and a suggestion that bankers are best positioned to know how the industry should be regulated, according to hacked emails&nbsp;...
+</div>
