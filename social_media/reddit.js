@@ -11,6 +11,9 @@ for (var i = 0; i < elements.length; i++) {
            var text = node.nodeValue;
            var replacedText = text.replace(/hi/gi, "I'm Alive");
 
+          // parser = new DOMParser();
+          //htmlDoc= parser.parseFromString(txt, "text/xml");
+
            if (replacedText !== text) {
                element.replaceChild(document.createTextNode(replacedText), node);
            }

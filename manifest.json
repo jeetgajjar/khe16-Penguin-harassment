@@ -57,6 +57,30 @@
           ],
 
           "run_at": "document_end"
+
+        },
+        {
+          "matches": [
+
+              "*://ask.fm/*"
+          ],
+          "js": [
+              "social_media/askfm.js"
+          ],
+
+          "run_at": "document_end"
+
+        },
+        {
+          "matches": [
+
+              "*://www.instagram.com/*"
+          ],
+          "js": [
+              "social_media/instagram.js"
+          ],
+
+          "run_at": "document_end"
         }
     ]
 }
