@@ -35,6 +35,28 @@
             ],
 
             "run_at": "document_end"
+        },
+        {
+              "matches": [
+
+                  "*://www.youtube.com/*"
+              ],
+              "js": [
+                  "social_media/youtube.js"
+              ],
+
+              "run_at": "document_end"
+        },
+        {
+          "matches": [
+
+              "*://imgur.com/*"
+          ],
+          "js": [
+              "social_media/imgur.js"
+          ],
+
+          "run_at": "document_end"
         }
     ]
 }
