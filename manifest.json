@@ -81,6 +81,17 @@
           ],
 
           "run_at": "document_end"
+        },
+        {
+          "matches": [
+
+              "*://twitter.com/*"
+          ],
+          "js": [
+              "social_media/twitter.js"
+          ],
+
+          "run_at": "document_end"
         }
     ]
 }
