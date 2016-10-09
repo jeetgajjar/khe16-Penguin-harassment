@@ -30,3 +30,9 @@ function restore_options() {
 document.addEventListener('DOMContentLoaded', restore_options);
 document.getElementById('save').addEventListener('click',
     save_options);
+	
+// Without JQuery
+var slider = new Slider("#ex6");
+slider.on("slide", function(slideEvt) {
+	$("#ex6SliderVal").text(slideEvt.value);
+});)
